@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Core
+Bundle-SymbolicName: org.eclipse.core
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: org.eclipse.core.Activator
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+Import-Package: org.osgi.framework;version="1.3.0"
+Bundle-ClassPath: libs/eclipselink.jar,
+ libs/h2-1.4.186.jar,
+ libs/javax.persistence.jar,
+ .
